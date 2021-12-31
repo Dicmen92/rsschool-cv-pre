@@ -22,6 +22,10 @@ html {
   scroll-behavior: smooth; 
 }
 
+.section {
+  padding: 40px 0;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -32,6 +36,13 @@ body {
 .container {  
   max-width: 1440px;  
   margin: 0 auto;
+}
+
+.subtitle {
+  margin-bottom: 24px;
+  font-size: 22px;
+  line-height: 22px; 
+  font-weight: normal; 
 }
 
 .header {
@@ -64,8 +75,7 @@ body {
 .contacts {
   display: flex;
   justify-content: space-around;  
-  align-items: center;
-  padding: 40px 0;
+  align-items: center; 
   border-bottom: 14px solid #F8D3D3;
   border-radius: 5%;
 }
@@ -98,6 +108,10 @@ body {
   font-weight: normal;  
 }
 
+.pers {
+  display: flex;
+}
+
 .personal-link {
   font-size: 18px;
   display: block;
@@ -108,4 +122,24 @@ body {
 .personal-link:hover {
   color: blue;  
   transition: .3s;
+}
+
+.pers-qualities__text {   
+  margin-bottom: 20px;
+}
+
+.pers__desc {  
+  padding: 0 20px;  
+  width: 50%;
+  text-align: justify; 
+  border-bottom: 14px solid #F8D3D3;
+  border-radius: 5%;
+}
+
+.skills-list {
+  padding: 0 20px;  
+}
+
+.skills-list li {
+  margin-bottom: 6px;
 }
