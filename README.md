@@ -1,4 +1,4 @@
 # rsschool-cv
 
-[rsschool-cv/cv](https://Dicmen92.github.io/rsschool-cv/cv/ "Cтраница CV в формате markdown")
-[rsschool-cv/cv](https://Dicmen92.github.io/rsschool-cv// "Cтраница CV в формате markdown")
+## [CV в формате markdown](https://Dicmen92.github.io/rsschool-cv/cv/ "CV в формате markdown")
+## [CV в виде свёрстанной страницы](https://Dicmen92.github.io/rsschool-cv// "CV в виде свёрстанной страницы")
