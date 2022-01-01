@@ -161,3 +161,91 @@ body {
 .skills-list li {
   margin-bottom: 6px;
 }
+
+.education {
+  padding: 40px 20px;
+  border-bottom: 7px solid #DC5E35;  
+  border-radius: 5%;
+}
+
+.primary_education__menu, 
+.additional_education__menu{  
+  list-style: none;
+  line-height: 32px;
+  border-left: 7px solid #DC5E35;  
+}
+
+.primary_education__list,
+.additional_education__list {
+  margin-left: 20px;
+}
+
+.education {
+  display: flex;
+}
+
+.primary_education,
+.additional-education {
+  width: 50%;  
+}
+
+.languages {
+  padding: 40px 20px;   
+}
+
+.languages-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.languages__subtitle {
+  text-align: center;
+}
+
+.languages-text {    
+  display: inline-block;  
+  border-bottom: 2px solid #101010;    
+}
+
+.languages-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer {  
+  background-color: #DC5E35;   
+  padding: 40px 0;
+}
+
+.footer-wrap {
+  display: flex;    
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;  
+}
+
+.footer__subtitle,
+.footer-name span {
+  margin: 0;
+  color: #fff;
+  font-size: 22px;
+  line-height: 22px; 
+  font-weight: normal;  
+}
+
+.footer-name span {
+  margin-right: 20px;
+}
+
+.footer-image{
+  width: 121px;
+  height: 45px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
