@@ -122,21 +122,20 @@ body {
   border-radius: 5%;
 }
 
-.personal-link {
-  font-size: 18px;
-  display: block;
-  text-decoration: none;  
-}
-
 .data-img {
   display: block;
   margin-right: 20px;
 }
 
-.data-link:not(:last-child) {  
+.data-link {  
   display: flex;
   align-items: center;  
   margin-bottom: 14px;
+}
+
+.personal-link {
+  font-size: 18px;  
+  text-decoration: none;  
 }
 
 .personal-link:hover {
